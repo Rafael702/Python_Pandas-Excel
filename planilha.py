@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-x = pd.read_excel(r"C:\Users\Rafael.Almeida\Desktop\Aula\Alura\Python\Pandas\lendo_planilhas\teste.xlsx")
+x = pd.read_excel(r"C:\Users\Rafael.Almeida\Desktop\Aula\Alura\Python\Pandas\lendo_planilhas\teste.xlsx", engine='openpyxl')
 
 # Grafico em Linha
 # plt.plot(x["Nome"])
